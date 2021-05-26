@@ -1,0 +1,71 @@
+.info_card {
+	padding: 3rem;
+	border-radius: 25px;
+	background: #e4ebf5;
+	box-shadow: 20px 20px 40px #c2c8d0, -20px -20px 40px #ffffff;
+
+	&-top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&-bottom {
+		padding: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		&-tittle--1 {
+			margin: 0rem 0 3rem 0;
+		}
+
+		&-box--1 {
+			width: auto;
+			display: flex;
+			justify-content: center;
+			padding: 1rem;
+			border-radius: 50px;
+			background: #e4ebf5;
+			box-shadow: 15px 15px 30px #c2c8d0, -15px -15px 30px #ffffff;
+		}
+
+		&-tittle--2 {
+			margin: 3rem;
+		}
+
+		.icon-box {
+			margin: 0 3rem;
+			padding: 1rem;
+		}
+
+		&-box--2 {
+			width: auto;
+			display: flex;
+			justify-content: center;
+			padding: 1rem;
+			border-radius: 50px;
+			background: #e4ebf5;
+			box-shadow: 15px 15px 30px #c2c8d0, -15px -15px 30px #ffffff;
+
+			.cold-icon {
+			}
+
+			.normal-icon {
+			}
+
+			.heat-icon {
+			}
+		}
+
+		.icon {
+			width: 40px;
+			height: 40px;
+		}
+
+		span {
+			display: none;
+		}
+	}
+}

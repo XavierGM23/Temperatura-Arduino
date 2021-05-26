@@ -1,0 +1,115 @@
+.bubble_temp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20rem;
+	height: 20rem;
+	border-radius: 50%;
+	background: #e4ebf5;
+	box-shadow: 10px 10px 20px #c2c8d0, -10px -10px 20px #ffffff;
+	margin: 2rem;
+}
+
+.bubble_temp-content {
+	width: 80%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 100%;
+	background-image: linear-gradient(to right bottom, #9001a9, #af06a0, #c71e97, #db358f, #ea4c89);
+	box-shadow: 20px 20px 40px #c2c8d0, -20px -20px 40px #ffffff;
+}
+
+.info_card {
+	padding: 3rem;
+	border-radius: 25px;
+	background: #e4ebf5;
+	box-shadow: 20px 20px 40px #c2c8d0, -20px -20px 40px #ffffff;
+}
+
+.info_card-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+}
+
+.info_card-bottom {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.info_card-bottom-tittle--1 {
+	margin: 1rem 0 3rem 0;
+}
+
+.info_card-bottom-box--1 {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	border-radius: 50px;
+	background: #e4ebf5;
+	box-shadow: 15px 15px 30px #c2c8d0, -15px -15px 30px #ffffff;
+}
+
+.info_card-bottom-tittle--2 {
+	margin: 3rem;
+}
+
+.info_card-bottom .icon-box {
+	margin: 0 3rem;
+	padding: 1rem;
+}
+
+.info_card-bottom-box--2 {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	padding: 1rem;
+	border-radius: 50px;
+	background: #e4ebf5;
+	box-shadow: 15px 15px 30px #c2c8d0, -15px -15px 30px #ffffff;
+}
+
+.info_card-bottom .icon {
+	width: 40px;
+	height: 40px;
+}
+
+.info_card-bottom span {
+	display: none;
+}
+
+.home-section {
+	width: 100vw;
+	height: 100vh;
+	background-color: #e4ebf5;
+}
+
+.pressed {
+	border-radius: 50px;
+	background-image: linear-gradient(to right bottom, #9001a9, #af06a0, #c71e97, #db358f, #ea4c89);
+}
+
+.filtered {
+	filter: invert(1);
+}
+
+/* Normalize CSS - RESET */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}

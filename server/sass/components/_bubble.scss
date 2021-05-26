@@ -1,0 +1,27 @@
+.bubble_temp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 20rem;
+	height: 20rem;
+
+	border-radius: 50%;
+	background: #e4ebf5;
+	box-shadow: 10px 10px 20px #c2c8d0, -10px -10px 20px #ffffff;
+
+	margin: 2rem;
+
+	&-content {
+		width: 80%;
+		height: 80%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		border-radius: 100%;
+		background-image: linear-gradient(to right bottom, #9001a9, #af06a0, #c71e97, #db358f, #ea4c89);
+		box-shadow: 20px 20px 40px #c2c8d0, -20px -20px 40px #ffffff;
+	}
+}

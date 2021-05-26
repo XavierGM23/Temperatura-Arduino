@@ -1,0 +1,14 @@
+.home-section {
+	width: 100vw;
+	height: 100vh;
+	background-color: #e4ebf5;
+}
+
+.pressed {
+	border-radius: 50px;
+	background-image: linear-gradient(to right bottom, #9001a9, #af06a0, #c71e97, #db358f, #ea4c89);
+}
+
+.filtered {
+	filter: invert(1);
+}
